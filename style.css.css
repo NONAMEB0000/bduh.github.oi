@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.up{
+    overflow: hidden;
+    background-color: white;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+.up li {
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    align-items: center;
+    color: #020202;
+}
+.up ul{
+    float: right;
+    display: flex;
+}
+logo.png{
+    float: left;
+    margin: 10px;
+}
+#ren{
+    color: gray;
+    font-size: 3rem;
+    margin: 20px 0;
+}
+.s1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80rem;
+    margin: 70px auto;
+}
+.t1{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 72rem;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.p1{
+    width: 650px;
+    display: flex;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    justify-content: space-around;
+    justify-items: center;
+    float: center;
+    clip: rect(0px,100px,0px,200px);
+}
+.p2{
+    position:relative;
+    position: absolute;
+    width: 380px;
+    height: auto;
+    margin-left: 270px;
+    top: 300px;
+}
+.d2{
+    text-align: left;
+    display: block;
+    width: 35%;
+}
+.d2 h1{
+    font-size: 70px;
+    margin: 0;
+}
+.d2 a input{
+    padding: 15px 50px;
+    border: solid 2.5px rgb(42, 42, 42) ;
+    background-color: white;
+    margin-top: 70px;
+    position: relative;
+    top: 30px;
+}
+.d2 a input:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    border: solid 2.5px white;
+}
+#p1{
+    font-size: 20px;
+}
+.dv1{
+    justify-content: right;
+    display: inline-block;
+    margin: 50px;
+    width: 600px;
+}
+.s2{
+    background-color: rgb(25, 116, 201);
+    display: flex;
+    justify-content: center;
+}
+.s2 div{
+    background-color: white;
+    border: solid 20px white;
+    text-align: center;
+    width: 275px;
+}
+.s2 div h3{
+    color: rgb(25, 116, 201);
+}
+.s3{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.btn a input{
+    padding: 10px 30px;
+    border: solid 2.5px rgb(25, 116, 201);
+    color: rgb(252, 252, 252);
+    background-color: rgb(25, 116, 201);
+    position: relative;
+}
+.btn a input:hover{
+    background-color: rgb(25, 116, 201);
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    border: solid 2.5px rgb(25, 116, 201);
+}
+.sec3 h1{
+    font-size: 40px;
+}
+.sec3 p{
+    color: gray;
+    font-family: italic;
+    font-size: 20px;
+}
+.sec4{
+    background-image: url("p4.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+    width: 90rem ;
+    max-width: 100%;
+    height: 40rem;
+    margin: 0 auto;
+}
+.sec4div1{
+    border: yellow solid 7px;
+    background-color: rgb(25, 116, 201);
+    display: inline-block;
+    margin: 55px 0;
+    padding: 50px 5px 25px 20px;
+    width: 400px;
+    font-size: 31px;
+    height: 30rem;
+    font-family: 'Oswald', sans-serif;
+}
+.G2A{
+    margin: 0 auto;
+    position: sticky;
+    width: 70rem;
+}
+.sec5{
+    background-image: url("peinture1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    align-items: center;
+    width: 90rem ;
+    max-width: 100%;
+    height: 45rem;
+    margin: 0 auto;
+}
+.sec5 div img{
+    width: 320px;
+    height: auto;
+    padding-top: 30px;
+}
+.sec5top{
+    margin: 50px;
+    padding-left: 30px;
+}
+.divs{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.divs div{
+    justify-content: space-around;
+    display: inline-block;
+    background-color: whitesmoke;
+    height: 29rem;
+    width: 370px;
+}
+.divs div h3{
+    color: #f4c80e;
+    font-size: 20px;
+    padding-left: 24px;
+}
+.divs div p{
+    padding-left: 25px;
+}
+.sec6{
+    background-color: #000000e8;
+    color: white;
+    align-items: center;
+    width: 90rem ;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+.sec6 article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+.sec6 article div{
+    display: inline-block;
+    width: 400px;
+}
+.topside{
+    padding-top: 50px;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.k{
+    text-align: center;
+}
+.k a input{
+    padding: 10px 30px;
+    border: solid 2.5px rgb(25, 116, 201);
+    color: rgb(25, 116, 201);
+    background-color: #05050548;
+    position: relative;
+}
+.k a input:hover{
+    background-color: rgb(25, 116, 201);
+    color: #000000e8;
+    transition: 0.3s;
+    border: solid 2.5px rgb(25, 116, 201);
+}
+.s7{
+    display: flex;
+}
+.dv{
+    display: flex;
+    height: 45rem;
+    max-width: 100%;
+    width: 90rem;
+    margin: 0 auto;
+}
+.d2d58{
+    background-color: rgb(206, 206, 206);
+    width: 50%;
+}
+.d2d57{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tastira{
+    width: 600px;
+    position: absolute;
+    margin-left: 14rem;
+    margin-top: 11rem;
+}
+.cd159 input{
+    padding: 10px 30px;
+    border: solid 2.5px black;
+    color: black;
+    background-color: white;
+    position: relative;
+}
+.cd159 input:hover{
+    background-color: rgb(25, 116, 201);
+    color: #000000e8;
+    transition: 0.3s;
+    border: solid 2.5px rgb(25, 116, 201);
+}
+.tdtd1{
+    background-color: rgb(25, 116, 201);
+    position: absolute;
+    height: 25rem;
+    width: 610px;
+    margin-left: 10rem;
+    margin-top: 15.5rem;
+}
+.sec8{
+    background-color: rgb(17, 17, 17);
+    height: 38rem;
+    max-width: 100%;
+    width: 90rem;
+    margin: 0 auto;
+}
+.doc{
+    background-color: white;
+    position: relative;
+    height: 30rem;
+    width: 850px;
+    margin-top: 4rem;
+    margin-left: 25rem;
+}
+.doc div{
+    justify-content: center;
+    align-items: center;
+    margin: 90px;
+    width: 700px;
+}
+.doc div input{
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    border-bottom: solid black;
+}
+.sec8div1{
+    display: flex;
+}
+.doc div textarea{
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 120px;
+    border-bottom: solid black;
+}
+.a123456{
+    margin-top: 3px;
+}
+.cd159 button{
+    padding: 10px 30px;
+    border: solid 2.5px black;
+    color: black;
+    background-color: white;
+    position: relative;
+}
+.cd159 button:hover{
+    background-color: rgb(25, 116, 201);
+    color: #000000e8;
+    transition: 0.3s;
+    border: solid 2.5px rgb(25, 116, 201);
+}
+.info{
+    background-color: rgb(25, 116, 201);
+    width: 20rem;
+    height: 23rem;
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: 7rem;
+}
+.infodiv{
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    height: 18rem;
+    margin-left: 30px;
+}
+.infodiv p{
+    font-size: 13px;
+    color: white;
+}
+.infodiv h5{
+    font-size: 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec9{
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec9 div{
+    width: 30rem;
+    text-align: center;
+    font-size: 16px;
+    font-family: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
